@@ -14,4 +14,6 @@
     <string name="changelog_crdroid_title">Changelog</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
 </resources>
