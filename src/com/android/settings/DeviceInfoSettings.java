@@ -76,11 +76,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_KERNEL_VERSION = "kernel_version";
     private static final String KEY_BUILD_NUMBER = "build_number";
     private static final String KEY_DEVICE_MODEL = "device_model";
-<<<<<<< HEAD
-=======
-    private static final String KEY_DEVICE_NAME = "device_name";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
->>>>>>> 2337154... Add RAM info.
     private static final String KEY_DEVICE_PROCESSOR = "device_processor";
     private static final String KEY_SELINUX_STATUS = "selinux_status";
     private static final String KEY_BASEBAND_VERSION = "baseband_version";
@@ -132,11 +128,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         }
         setValueSummary(KEY_BASEBAND_VERSION, "gsm.version.baseband");
-<<<<<<< HEAD
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL + getMsvSuffix());
-=======
         setStringSummary(KEY_DEVICE_MEMORY, getDeviceMemoryInfo());
->>>>>>> 2337154... Add RAM info.
         setStringSummary(KEY_DEVICE_PROCESSOR, getDeviceProcessorInfo());
         setValueSummary(KEY_EQUIPMENT_ID, PROPERTY_EQUIPMENT_ID);
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
