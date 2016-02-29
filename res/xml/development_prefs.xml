@@ -49,10 +49,7 @@
         android:key="oem_unlock_enable"
         android:title="@string/oem_unlock_enable"
         android:summary="@string/oem_unlock_enable_summary"/>
-    <Preference
-         android:key="powermenu"
-         android:fragment="com.android.settings.minimal.PowerMenu"
-         android:title="@string/powermenu_category" />
+
     <PreferenceScreen
         android:key="running_apps"
         android:title="@string/runningservices_settings_title"
