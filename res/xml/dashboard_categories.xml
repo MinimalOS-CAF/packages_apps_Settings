@@ -47,8 +47,7 @@
                 android:id="@+id/mobile_networks"
                 android:title="@string/network_settings_title"
                 android:icon="@drawable/ic_settings_cellular"
-	settings:switchClass="com.android.settings.dashboard.MobileNetworksEnabler"
-		>
+	settings:switchClass="com.android.settings.dashboard.MobileNetworksEnabler">
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.phone"
@@ -84,6 +83,21 @@
                 android:title="@string/radio_controls_title"
                 android:fragment="com.android.settings.WirelessSettings"
                 android:icon="@drawable/ic_settings_more"
+                />
+
+    </dashboard-category>
+
+    <!-- PERSONALIZE -->
+    <dashboard-category
+            android:id="@+id/device_personalization"
+            android:title="@string/header_category_personalization" >
+
+        <!-- Minimal tweaks -->
+        <dashboard-tile
+                android:id="@+id/minimal_tweaks"
+                android:title="@string/minimal_tweaks_title"
+                android:fragment="com.android.settings.minimal.MinimalTweaks"
+                android:icon="@drawable/ic_settings_minimal"
                 />
 
     </dashboard-category>

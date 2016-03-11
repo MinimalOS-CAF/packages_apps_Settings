@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+	<!-- Dashboard header -->
+    <string name="header_category_personalization">Personalize</string>
+
+    <!-- Minimal tweaks -->
+    <string name="minimal_tweaks_title">Minimal tweaks</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
